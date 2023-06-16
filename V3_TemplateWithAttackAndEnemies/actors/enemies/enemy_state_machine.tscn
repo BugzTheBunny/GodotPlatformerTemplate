@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv8a0lyi5ug50"]
+
+[ext_resource type="Script" path="res://managers/state_machine_manager/CharacterStateMachineManager.gd" id="1_rk6q2"]
+[ext_resource type="Script" path="res://managers/state_machine_manager/State.gd" id="2_2dd3x"]
+
+[node name="EnemyStateMachine" type="Node"]
+script = ExtResource("1_rk6q2")
+
+[node name="Walk" type="Node" parent="."]
+script = ExtResource("2_2dd3x")
+
+[node name="Death" type="Node" parent="."]
+script = ExtResource("2_2dd3x")
+can_move = false

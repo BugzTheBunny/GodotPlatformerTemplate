@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://10a6ww23841v"]
+
+[ext_resource type="Script" path="res://managers/state_machine_manager/State.gd" id="1_eiss7"]
+
+[node name="HitState" type="Node"]
+script = ExtResource("1_eiss7")
